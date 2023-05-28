@@ -1,0 +1,22 @@
+.partners{
+	width: 100%;
+	height: max-content;
+	padding: 20px 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	.leaft{
+		display: flex;
+		column-gap: 100px;
+	}
+	.right{
+		h4{
+			font-weight: 700;
+			font-size: 38px;
+			line-height: 120%;
+			letter-spacing: 0.0125em;
+			text-transform: uppercase;
+			color: #C1C1C1;
+		}
+	}
+}

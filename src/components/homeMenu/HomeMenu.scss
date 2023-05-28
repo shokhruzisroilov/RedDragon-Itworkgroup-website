@@ -1,0 +1,122 @@
+.home__menu{
+	width: 100%;
+	height: 740px;
+	background-image: url(../../imges/bg-home.jpg);
+	background-repeat: no-repeat;
+	.home__text{
+		padding-left: 300px;
+		padding-top: 120px;
+		h1{
+			width: 560px;
+			font-weight: 700;
+			font-size: 51px;
+			line-height: 120%;
+			letter-spacing: 0.0125em;
+			text-transform: uppercase;
+			color: #0D0D0D;
+		}
+		p{
+			width: 350px;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 170%;
+			padding-top: 10px;
+			color: #989898;
+		}
+		.conect{
+			display: flex;
+			column-gap: 10px;
+			padding-top: 40px;	
+			.work{
+				width: 285px;
+				height: 67px;
+				background: linear-gradient(90deg, #B541BB 0%, #380AF4 103.46%);
+				border: 1px solid #0D0D0D;
+				border-radius: 5px;
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 170%;
+				letter-spacing: 0.015em;
+				text-transform: uppercase;
+				color: #FFFFFF;
+				cursor: pointer;
+				border:none;
+				img{
+					padding-left: 20px;
+				}
+			}
+			.contact{
+				width: 150px;
+				height: 67px;
+				border-radius: 5px;
+				background: #FEFEFE;
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 170%;
+				letter-spacing: 0.015em;
+				text-transform: uppercase;
+				color: #0D0D0D;
+				cursor: pointer;
+			}
+		}
+	}
+	.our__services{
+		display: flex;
+		justify-content: center;
+		column-gap:20px;
+		padding-top: 150px;
+
+		article{
+			width: 350px;
+			height: 100px;
+			padding: 20px;
+			background: #FFFFFF;
+			box-shadow: 8px 8px 16px rgba(125, 125, 125, 0.1);
+			border-radius: 5px;
+			display: flex;
+			align-items:center;
+			cursor: pointer;
+			span{
+				padding-left: 20px;
+				h3{
+					font-weight: 500;
+					font-size: 21px;
+					line-height: 150%;
+					color: #0D0D0D;
+				}
+				p{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 170%;
+					color: #989898;
+				}
+			}
+			.arrow__right{
+				padding-left: 50px;
+			}
+		}
+	}
+	.messing{
+		width: 64px;
+		height: 44px;
+		background: #0D0D0D;
+		border: 1px solid #0D0D0D;
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		justify-content: center;
+		position: absolute;
+		right: 80px;
+		bottom: -80px;
+		cursor: pointer;
+		.border{
+			width: 64px;
+			height: 44px;
+			border: 1px solid #0D0D0D;
+			position: absolute;
+			top: 5px;
+			left: 5px;
+		}
+	}
+}
